@@ -20,7 +20,7 @@ const reviewSchema = new mongoose.Schema({
 })
 
 //create model
-const reviews = mongoose.model("review",reviewSchema)
+const review = mongoose.model("review",reviewSchema)
 
 //export
-module.exports = reviews
+module.exports = review

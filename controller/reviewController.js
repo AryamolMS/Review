@@ -1,10 +1,10 @@
 //import schema
-const reviews = require('../model/reviewSchema')
+const review = require('../model/reviewSchema')
 
 
 exports.details = async(req,res) => {
 
-    const data = new reviews({
+    const data = new review({
         username: req.body.username,
         rating: req.body.rating,
         review:req.body.review

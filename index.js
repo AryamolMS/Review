@@ -35,8 +35,4 @@ reviewServer.listen(PORT,()=>{
     console.log(`review-app Server running successfully at port no ${PORT}`);
 })
 
-/* 
-//get request
-reviewServer.get('/',(req,res)=>{
-    res.send('<h2 style="color:blue">GET REQUEST</h2>')
-}) */
+
